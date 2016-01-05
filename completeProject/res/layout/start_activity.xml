@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sportify"
+        android:scaleType="centerInside"
+
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to Begin"
+        android:id="@+id/click_begin"
+        android:layout_marginBottom="136dp"
+        android:layout_marginEnd="31dp"
+        android:layout_above="@+id/babson"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Babson College"
+        android:id="@+id/babson"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:background="#8228b51e"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
