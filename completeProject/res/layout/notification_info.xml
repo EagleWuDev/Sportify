@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title3"
+        android:textSize="40dp"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:background="#c528b51e"/>
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendar"
+        android:layout_below="@id/title3"
+        android:maxDate="11/30/2015"
+        android:minDate="11/01/2015">
+
+    </CalendarView>
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/timepicker"
+        android:layout_below="@+id/calendar"
+        android:layout_centerHorizontal="true">
+
+    </NumberPicker>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timepicker"
+        android:id="@+id/timepickertext"
+        android:text="Select Time"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add A Notification!"
+        android:layout_below="@+id/timepickertext"
+        android:id="@+id/Buttonsend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+</RelativeLayout>
