@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/list_selector"
+    android:layout_height="match_parent">
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/description"
+        android:paddingLeft="15dp"
+        android:textColor="#ffffff"
+        android:background="#b4222222"
+        android:layout_below="@+id/title"
+        android:text = "description"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textSize="27dp"
+        android:text="Field Hockey"
+        android:textStyle="bold"
+        android:textColor="#c528b51e"
+        android:background="#cd222222"
+        android:paddingLeft="8dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/image"/>
+
+
+</RelativeLayout>
